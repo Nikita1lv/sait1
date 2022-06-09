@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    width:98%;
+}
+
+
+.master{
+    
+    overflow: hidden;
+}
+
+div.scrollmenu {
+    background-color:MediumSeaGreen;
+    box-shadow: 10px 5px 5px Green;
+    overflow: auto;
+    width: 100%;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div.scrollmenu a:hover {
+    background-color:Green;
+}
+
+
+		body {
+			background:LightPink;
+			background-size: 100%;
+		}
+		  p {
+             color:MediumSeaGreen
+		 }
+		  h1 {
+             color:MediumSeaGreen
+		 }
+		  h2 {
+             color:MediumSeaGreen
+		 }
+		  h3 {
+             color:MediumSeaGreen
+		 }
+		 button {
+    background-color:MediumSeaGreen;
+    box-shadow: 10px 5px 5px Green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 360px) { 
+.container2{
+    width: 90%;
+ } 
+}
+
+@media screen and (max-width: 360px) { 
+div.scrollmenu {
+    background-color:MediumSeaGreen;
+    box-shadow: 10px 5px 5px Green;
+    overflow: auto;
+    width: 107%;
+    white-space: nowrap;
+ }
+div.scrollmenu a:hover {
+    background-color:Green;
+}
+
+
+@media screen and (max-width: 360px) { 
+.master{
+    
+    overflow: hidden;
+ }
+}
